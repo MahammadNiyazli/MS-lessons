@@ -14,6 +14,8 @@ public class Main {
             OptionsEnum optionsEnum = OptionsEnumUtil.chooseOption();
             AbstractCardStrategy strategy = StrategyFactory.getStrategyByOption(optionsEnum);
             strategy.process();
+
+
         }
     }
 }
