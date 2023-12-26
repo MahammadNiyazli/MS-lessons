@@ -13,6 +13,7 @@ public abstract class Card {
     private String  citizenship;
 
     
+    private Integer age;
 
     public String getPin() {
         return pin;
