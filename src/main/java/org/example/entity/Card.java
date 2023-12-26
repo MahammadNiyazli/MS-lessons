@@ -12,6 +12,8 @@ public abstract class Card {
     private String cardNumber;
     private String  citizenship;
 
+    
+
     public String getPin() {
         return pin;
     }
