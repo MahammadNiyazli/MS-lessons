@@ -31,5 +31,7 @@ public class CreateIDCardStrategy implements AbstractCardStrategy{
 
         DB.addIdCard(idCard);
         System.err.println("Yeni sexsiyyet vesiqesi yaradildi");
+        System.err.println("Just change");
+
     }
 }
